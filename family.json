@@ -3,7 +3,7 @@
       "id": 1,
       "name": "Nafiz Mustaqim",
       "relation": "Self",
-      "relatedTo": [2, 3],
+      "relatedTo": [2, 3, 4],
       "isMe": true
     },
     {
@@ -17,12 +17,12 @@
       "name": "Kowser Mia",
       "relation": "Father",
       "relatedTo": [1]
-    }
+    },
     {
         "id": 4,
         "name": "SM Sabbir Ahmed",
-        "relation": "Brother",
-        "relatedTo": [2, 3]
+        "relation": "Sibling",
+        "relatedTo": [1]
       }
   ]
   
