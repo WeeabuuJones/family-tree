@@ -2,23 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Family Tree</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Family Tree with LocalStorage</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Family Tree Website</h1>
+  <h1>Family Tree</h1>
 
-  <!-- Form to add family members -->
   <form id="memberForm">
     <input type="text" id="name" placeholder="Name" required />
-    <input type="text" id="relation" placeholder="Relation (e.g., Father, Sister)" required />
+    <input type="text" id="relation" placeholder="Relation (e.g., Mother, Brother)" required />
+    <select id="relatedTo" multiple></select>
     <button type="submit">Add Member</button>
   </form>
 
-  <!-- Tree Display -->
+  <h2>Family Members</h2>
   <ul id="familyTree"></ul>
 
   <script src="script.js"></script>
+  <button id="downloadBtn">Download JSON</button>
 </body>
 </html>

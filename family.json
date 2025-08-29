@@ -1,0 +1,28 @@
+[
+    {
+      "id": 1,
+      "name": "Nafiz Mustaqim",
+      "relation": "Self",
+      "relatedTo": [2, 3],
+      "isMe": true
+    },
+    {
+      "id": 2,
+      "name": "Salma Akhter",
+      "relation": "Mother",
+      "relatedTo": [1]
+    },
+    {
+      "id": 3,
+      "name": "Kowser Mia",
+      "relation": "Father",
+      "relatedTo": [1]
+    }
+    {
+        "id": 4,
+        "name": "SM Sabbir Ahmed",
+        "relation": "Brother",
+        "relatedTo": [2, 3]
+      }
+  ]
+  
