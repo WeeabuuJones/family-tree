@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Family Tree</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Family Tree Website</h1>
+
+  <!-- Form to add family members -->
+  <form id="memberForm">
+    <input type="text" id="name" placeholder="Name" required />
+    <input type="text" id="relation" placeholder="Relation (e.g., Father, Sister)" required />
+    <button type="submit">Add Member</button>
+  </form>
+
+  <!-- Tree Display -->
+  <ul id="familyTree"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
